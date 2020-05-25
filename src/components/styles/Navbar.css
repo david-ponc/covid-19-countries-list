@@ -51,9 +51,9 @@ button {
   grid-template-columns: 1fr 1fr;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 640px) {
   .navbar input {
-    min-width: 370px;
+    min-width: 220px;
   }
   .navbar {
     padding: 0 1rem;
