@@ -32,7 +32,7 @@ class Navbar extends React.Component {
       document.documentElement.style.setProperty('--body-color', '#ffffff');
       document.documentElement.style.setProperty('--text-color', '#1f2d40');
       document.documentElement.style.setProperty('--card-color', '#f8f8f8');
-      document.documentElement.style.setProperty('--border-color', '#ffffff');
+      document.documentElement.style.setProperty('--border-color', '#dcdcdc');
     }
     return (
       <header className="navbar">

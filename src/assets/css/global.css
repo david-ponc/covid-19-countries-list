@@ -1,10 +1,32 @@
+@font-face {
+  font-family: 'Circular Std Book';
+  src: url('../fonts/CircularStd-Book.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CircularStd-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/CircularStd-Book.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/CircularStd-Book.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('../fonts/CircularStd-Book.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Circular Std Medium';
+  src: url('../fonts/CircularStd-Medium.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CircularStd-Medium.eot?#iefix') format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/CircularStd-Medium.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/CircularStd-Medium.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('../fonts/CircularStd-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+@font-face {
+  font-family: 'Circular Std Bold';
+  src: url('../fonts/CircularStd-Bold.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/CircularStd-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/CircularStd-Bold.woff2') format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/CircularStd-Bold.woff') format('woff'),
+    /* Pretty Modern Browsers */ url('../fonts/CircularStd-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: 'Circular Std Book', sans-serif;
+  font-family: 'Circular Std Book', system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: var(--text-color);
