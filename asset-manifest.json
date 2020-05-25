@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-covid-19/static/css/main.f22aee13.chunk.css",
+    "main.js": "/react-covid-19/static/js/main.899fb893.chunk.js",
+    "main.js.map": "/react-covid-19/static/js/main.899fb893.chunk.js.map",
+    "runtime-main.js": "/react-covid-19/static/js/runtime-main.2fd007a3.js",
+    "runtime-main.js.map": "/react-covid-19/static/js/runtime-main.2fd007a3.js.map",
+    "static/js/2.9ff266ab.chunk.js": "/react-covid-19/static/js/2.9ff266ab.chunk.js",
+    "static/js/2.9ff266ab.chunk.js.map": "/react-covid-19/static/js/2.9ff266ab.chunk.js.map",
+    "index.html": "/react-covid-19/index.html",
+    "precache-manifest.aca3c4343f403ad889d86319a8e292df.js": "/react-covid-19/precache-manifest.aca3c4343f403ad889d86319a8e292df.js",
+    "service-worker.js": "/react-covid-19/service-worker.js",
+    "static/css/main.f22aee13.chunk.css.map": "/react-covid-19/static/css/main.f22aee13.chunk.css.map",
+    "static/js/2.9ff266ab.chunk.js.LICENSE.txt": "/react-covid-19/static/js/2.9ff266ab.chunk.js.LICENSE.txt",
+    "static/media/icon-dead.svg": "/react-covid-19/static/media/icon-dead.58db829c.svg",
+    "static/media/icon-filter.svg": "/react-covid-19/static/media/icon-filter.a06447c6.svg",
+    "static/media/icon-mode.svg": "/react-covid-19/static/media/icon-mode.5ede6847.svg",
+    "static/media/icon-recovered.svg": "/react-covid-19/static/media/icon-recovered.ecc7d48e.svg",
+    "static/media/icon-search.svg": "/react-covid-19/static/media/icon-search.42b9c8d0.svg",
+    "static/media/icon-up.svg": "/react-covid-19/static/media/icon-up.931b8e8c.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2fd007a3.js",
+    "static/js/2.9ff266ab.chunk.js",
+    "static/css/main.f22aee13.chunk.css",
+    "static/js/main.899fb893.chunk.js"
+  ]
+}
