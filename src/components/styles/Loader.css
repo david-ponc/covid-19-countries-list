@@ -1,0 +1,9 @@
+.cardLoader__header {
+  margin: 1rem 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__footer {
+  margin-bottom: 1rem;
+}

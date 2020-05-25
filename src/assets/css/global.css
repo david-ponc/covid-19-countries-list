@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Circular Std Book', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--text-color);
+  background-color: var(--body-color);
+}
+
+:root {
+  --body-color: #ffffff;
+  --text-color: #1f2d40;
+  --card-color: #f8f8f8;
+  --border-color: #dcdcdc;
+}

@@ -1,0 +1,17 @@
+.home {
+  max-width: 1440px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.home h3 {
+  font-family: 'Circular Std Bold';
+  font-size: 20px;
+}
+
+.message {
+  font-family: 'Circular Std Bold';
+  font-size: 36px;
+  text-align: center;
+}
