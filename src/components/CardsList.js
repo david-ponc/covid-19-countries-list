@@ -12,13 +12,6 @@ import './styles/CardsList.css';
 // }
 
 class CardsList extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      filteredCountries: [],
-    };
-  }
-
   render() {
     return (
       <React.Fragment>
