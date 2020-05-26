@@ -62,7 +62,15 @@ class Home extends React.Component {
       );
     }
     if (this.state.error) {
-      return <p>Error</p>;
+      return (
+        <React.Fragment>
+          <Navbar query={this.state.query} onChange={this.handleChange} />
+          <div className="home">
+            <h3>COVID-19 countries list</h3>
+            <h2>Error al cargar la información, por favor intente de nuevo.</h2>
+          </div>
+        </React.Fragment>
+      );
     }
     if (this.state.filteredCountries.length !== 0) {
       return (
@@ -80,7 +88,7 @@ class Home extends React.Component {
         <React.Fragment>
           <Navbar query={this.state.query} onChange={this.handleChange} />
           <div className="home">
-            <h3>COVID-19 list countries</h3>
+            <h3>COVID-19 countries list</h3>
             <p className="message">country "{this.state.query}" not found.</p>
           </div>
         </React.Fragment>
@@ -90,7 +98,7 @@ class Home extends React.Component {
       <React.Fragment>
         <Navbar query={this.state.query} onChange={this.handleChange} />
         <div className="home">
-          <h3>COVID-19 list countries</h3>
+          <h3>COVID-19 countries list</h3>
           <CardsList query={this.state.query} countries={this.state.countries} />
         </div>
       </React.Fragment>
