@@ -55,7 +55,7 @@ class Home extends React.Component {
         <React.Fragment>
           <Navbar />
           <div className="home">
-            <h3>COVID-19 list countries</h3>
+            <h3>COVID-19 countries list</h3>
             <Loader />
           </div>
         </React.Fragment>
