@@ -29,6 +29,7 @@ class Home extends React.Component {
 
   componentDidMount() {
     this.getData();
+    // this.getDataSocket();
   }
 
   handleChange = query => {
@@ -47,6 +48,22 @@ class Home extends React.Component {
     } catch (error) {
       this.setState({ loading: false, error: error });
     }
+  };
+
+  getDataSocket = () => {
+    this.setState({ loading: true, error: null });
+    const ws = new WebSocket('ws://https://api.covid19api.com/summary');
+    ws.onopen = () => {
+      console.log('conexion establecida');
+    };
+    ws.onmessage = event => {
+      const data = JSON.parse(event.data);
+      console.log(data);
+      this.setState({ loading: false, countries: data });
+    };
+    ws.onclose = () => {
+      console.log('conexion finalizada');
+    };
   };
 
   render() {
