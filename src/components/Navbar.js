@@ -1,7 +1,8 @@
 import React from 'react';
 import './styles/Navbar.css';
 import iconSearch from '../assets/images/icon-search.svg';
-import iconMode from '../assets/images/icon-mode.svg';
+import iconModeLight from '../assets/images/icon-mode-light.svg';
+import iconModeNight from '../assets/images/icon-mode-night.svg';
 import iconFilter from '../assets/images/icon-filter.svg';
 
 class Navbar extends React.Component {
@@ -9,11 +10,14 @@ class Navbar extends React.Component {
     super(props);
     this.state = {
       dark: false,
+      icon: iconModeLight,
     };
   }
 
   handleMode = () => {
     this.setState({ dark: !this.state.dark });
+    if (this.state.dark) this.setState({ icon: iconModeLight });
+    else this.setState({ icon: iconModeNight });
   };
 
   handleChange = e => {
@@ -45,7 +49,7 @@ class Navbar extends React.Component {
         </div>
         <div className="navbar__options">
           <button onClick={this.handleMode}>
-            <img src={iconMode} alt="icon-search" />
+            <img src={this.state.icon} alt="icon-search" />
           </button>
           <button>
             <img src={iconFilter} alt="icon-search" />
