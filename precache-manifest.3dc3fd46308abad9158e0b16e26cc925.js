@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "46062c34e0108edcc59f6e6cfcb2de3e",
+    "revision": "4e75741fcac7a04e5fe2602718515b9f",
     "url": "/covid-19-countries-list/index.html"
   },
   {
-    "revision": "371d4d8206adf250378a",
-    "url": "/covid-19-countries-list/static/css/main.8c2492d9.chunk.css"
+    "revision": "5788e05434d175bc31bf",
+    "url": "/covid-19-countries-list/static/css/main.3b5307f7.chunk.css"
   },
   {
     "revision": "82547b3cec718565fd71",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-19-countries-list/static/js/2.34232cff.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "371d4d8206adf250378a",
-    "url": "/covid-19-countries-list/static/js/main.9c1dc9f4.chunk.js"
+    "revision": "5788e05434d175bc31bf",
+    "url": "/covid-19-countries-list/static/js/main.ccf0032c.chunk.js"
   },
   {
     "revision": "eb8c5635dae5c0feb9e2",
@@ -84,8 +84,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/covid-19-countries-list/static/media/icon-mode-light.5ede6847.svg"
   },
   {
-    "revision": "a8e6747c5c49ee84b26eea8c900014ca",
-    "url": "/covid-19-countries-list/static/media/icon-mode-night.a8e6747c.svg"
+    "revision": "d21122e858dadbcd1ceaae38cbe9ca00",
+    "url": "/covid-19-countries-list/static/media/icon-mode-night.d21122e8.svg"
   },
   {
     "revision": "ecc7d48eed5f9579441f6e1dc2fdc349",

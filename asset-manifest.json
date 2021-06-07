@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/covid-19-countries-list/static/css/main.8c2492d9.chunk.css",
-    "main.js": "/covid-19-countries-list/static/js/main.9c1dc9f4.chunk.js",
-    "main.js.map": "/covid-19-countries-list/static/js/main.9c1dc9f4.chunk.js.map",
+    "main.css": "/covid-19-countries-list/static/css/main.3b5307f7.chunk.css",
+    "main.js": "/covid-19-countries-list/static/js/main.ccf0032c.chunk.js",
+    "main.js.map": "/covid-19-countries-list/static/js/main.ccf0032c.chunk.js.map",
     "runtime-main.js": "/covid-19-countries-list/static/js/runtime-main.d7d12019.js",
     "runtime-main.js.map": "/covid-19-countries-list/static/js/runtime-main.d7d12019.js.map",
     "static/js/2.34232cff.chunk.js": "/covid-19-countries-list/static/js/2.34232cff.chunk.js",
     "static/js/2.34232cff.chunk.js.map": "/covid-19-countries-list/static/js/2.34232cff.chunk.js.map",
     "index.html": "/covid-19-countries-list/index.html",
-    "precache-manifest.ea8bd7e09b8f9b6fbe378fc77220c58b.js": "/covid-19-countries-list/precache-manifest.ea8bd7e09b8f9b6fbe378fc77220c58b.js",
+    "precache-manifest.3dc3fd46308abad9158e0b16e26cc925.js": "/covid-19-countries-list/precache-manifest.3dc3fd46308abad9158e0b16e26cc925.js",
     "service-worker.js": "/covid-19-countries-list/service-worker.js",
-    "static/css/main.8c2492d9.chunk.css.map": "/covid-19-countries-list/static/css/main.8c2492d9.chunk.css.map",
+    "static/css/main.3b5307f7.chunk.css.map": "/covid-19-countries-list/static/css/main.3b5307f7.chunk.css.map",
     "static/js/2.34232cff.chunk.js.LICENSE.txt": "/covid-19-countries-list/static/js/2.34232cff.chunk.js.LICENSE.txt",
     "static/media/global.css": "/covid-19-countries-list/static/media/CircularStd-Medium.e4ba63a6.ttf",
     "static/media/icon-dead.svg": "/covid-19-countries-list/static/media/icon-dead.58db829c.svg",
     "static/media/icon-filter.svg": "/covid-19-countries-list/static/media/icon-filter.a06447c6.svg",
     "static/media/icon-mode-light.svg": "/covid-19-countries-list/static/media/icon-mode-light.5ede6847.svg",
-    "static/media/icon-mode-night.svg": "/covid-19-countries-list/static/media/icon-mode-night.a8e6747c.svg",
+    "static/media/icon-mode-night.svg": "/covid-19-countries-list/static/media/icon-mode-night.d21122e8.svg",
     "static/media/icon-recovered.svg": "/covid-19-countries-list/static/media/icon-recovered.ecc7d48e.svg",
     "static/media/icon-search.svg": "/covid-19-countries-list/static/media/icon-search.42b9c8d0.svg",
     "static/media/icon-up.svg": "/covid-19-countries-list/static/media/icon-up.931b8e8c.svg"
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.d7d12019.js",
     "static/js/2.34232cff.chunk.js",
-    "static/css/main.8c2492d9.chunk.css",
-    "static/js/main.9c1dc9f4.chunk.js"
+    "static/css/main.3b5307f7.chunk.css",
+    "static/js/main.ccf0032c.chunk.js"
   ]
 }
