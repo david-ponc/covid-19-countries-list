@@ -21,7 +21,12 @@ class Home extends React.Component {
   filterCountries = query => {
     this.setState({ noMatches: false });
     const result = this.state.countries.filter(country => {
-      return country.Country.toLowerCase().startsWith(query.toLowerCase());
+      return country.Country.toLowerCase().startsWith(
+        query.trim()
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+      );
     });
     if (result.length === 0) this.setState({ noMatches: true });
     this.setState({ filteredCountries: result });
