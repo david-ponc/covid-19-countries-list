@@ -40,7 +40,7 @@ class Navbar extends React.Component {
     }
     return (
       <header className="navbar">
-        <span>DEICOD</span>
+        <span>davidponc</span>
         <div className="navbar__search">
           <input type="text" placeholder="Search here..." value={query} onChange={this.handleChange} />
           <button>
@@ -50,9 +50,6 @@ class Navbar extends React.Component {
         <div className="navbar__options">
           <button onClick={this.handleMode}>
             <img src={this.state.icon} alt="icon-search" />
-          </button>
-          <button>
-            <img src={iconFilter} alt="icon-search" />
           </button>
         </div>
       </header>

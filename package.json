@@ -1,6 +1,6 @@
 {
   "name": "apicovid",
-  "homepage": "https://davidp46.github.io/covid-19-countries-list/",
+  "homepage": "https://covid.davidponc.dev",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
